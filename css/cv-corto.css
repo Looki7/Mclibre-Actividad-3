@@ -1,0 +1,84 @@
+body {
+  font-family: sans-serif;
+  background-color: hsl(200, 15%, 85%);
+  text-align: justify;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 40px;
+  text-align: center;
+}
+
+h3 {
+  font-style: italic;
+  background-color: hsl(200, 15%, 65%);
+  color: hsl(200, 15%, 40%);
+  font-size: 21px;
+}
+
+.intro {
+  background-color: hsl(200, 15%, 75%) !important;
+}
+
+p {
+  background-color: hsl(200, 15%, 75%);
+}
+
+.datos-personales,
+.educación {
+  text-decoration: underline;
+  font-size: 32px;
+  background-color: hsl(200, 15%, 55%);
+  color: hsl(200, 15%, 30%);
+}
+
+.capacidades {
+  text-decoration: underline;
+  font-size: 32px;
+  background-color: hsl(200, 15%, 55%);
+  color: hsl(200, 15%, 30%);
+}
+
+strong {
+  color: blue;
+  color: hsl(200, 100%, 30%);
+  font-weight: normal;
+}
+
+em {
+  font-style: normal;
+  color: hsl(200, 100%, 40%);
+  font-weight: bold;
+}
+
+adress {
+  text-align: right;
+  background-color: white;
+  font-weight: bold;
+  font-style: italic;
+  display: block;
+  margin-bottom: 14px;
+}
+
+.footer-fixed {
+  text-align: center;
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: 0;
+  border-top: 2px black solid;
+  font-size: 13px;
+  height: 30px;
+}
+
+a {
+  color: blue;
+  font-style: oblique;
+}
+
+cite {
+  font-style: normal;
+}
